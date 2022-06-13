@@ -1,0 +1,26 @@
+#include <iostream> 
+
+
+int g(...) {
+	int name;
+	name = 10;
+	return name;
+}
+
+int main() {
+	int r1 = g(876.4,5,"ytr");
+	int r2 = g();
+	int r3 = g(3,4);
+	
+	
+	double d;
+	 float f; 
+
+Error, encounter a close remark character without a preceding open remark character.
+
+	double d2 = 0.3;
+	
+Error, encounter an unclosed remark.
+
+	return 0; 
+}

@@ -1,0 +1,30 @@
+#include <iostream> //why is it always C++?!?!?!
+//using is not used.
+
+int g(...) {//a function that gets eveything
+	int /*how shell we call it?*/name;
+	name = 10;
+	return name;//why not by ref?
+}
+
+int main() {//main function no args
+	int r1 = g(876.4,5,"ytr");//first call
+	int r2 = g();//second call
+	int r3 = g(3,4);//3rd call
+	//a comment
+	//std::cout<<"this /* is illegal so it's in a comment\n";
+	double d;
+	/* veagreafre // gregregr e*/ float f; //another comment
+	const char c;
+	int x=3;
+	x = r1+r2+r3;
+	std::cout<<"x = "<<x<<std::endl;
+	*/
+	double d2 = 0.3;
+	/*
+	d = d2;
+	//enough!
+	double d3 = 5.4;
+	/* enought 2*/
+	return 0; //all well
+}
